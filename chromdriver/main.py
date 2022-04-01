@@ -34,7 +34,7 @@ try:
     
     email_input = driver.find_element(by= By.NAME, value= 'login')
     email_input.clear()
-    email_input.send_keys('***************')
+    email_input.send_keys('m.patrikeeva@yandex.ru')
 
     password_input = driver.find_element(by= By.NAME, value= 'password')
     password_input.clear()
